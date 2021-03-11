@@ -1,5 +1,5 @@
 # Smooth Monke
-Makes textures nice and smooth. Like ice cream!\
+Makes textures nice and smooth. Like ice cream!
 
 *Not guaranteed to work well with other mods.*
 ## [Direct Download](https://github.com/auralius-dev/SmoothMonke/releases/download/1.0.0/SmoothMonke.dll)
