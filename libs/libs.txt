@@ -1,0 +1,6 @@
+UnityEngine.CoreModule.dll
+UnityEngine.dll
+Assembly-CSharp.dll
+0Harmony.dll
+BepInEx.dll
+BepInEx.Harmony.dll
