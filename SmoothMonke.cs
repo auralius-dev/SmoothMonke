@@ -28,7 +28,7 @@ namespace SmoothMonke
                         }
                     }
                     catch {
-                        // Getting the materials on some game objects can cause an error. Unavoidable to my knowledge, as testing if it will error causes the error. So just skip that object and keep going. 
+                        // Getting the materials on some game objects will throw an error. Unavoidable to my knowledge, as testing if it will error causes the error. So just skip that object and keep going. 
                     }
                 }
             }
