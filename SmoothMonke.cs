@@ -27,7 +27,8 @@ namespace SmoothMonke
                             mat.mainTexture.filterMode = FilterMode.Bilinear; // Changing the FilterMode from point, to bilinear. Trilinear also works, but bilinear is all that's needed.
                         }
                     }
-                    catch {
+                    catch
+                    {
                         // Getting the materials on some game objects will throw an error. Unavoidable to my knowledge, as testing if it will error causes the error. So just skip that object and keep going. 
                     }
                 }
