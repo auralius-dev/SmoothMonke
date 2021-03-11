@@ -1,7 +1,8 @@
 # Smooth Monke
 Makes textures nice and smooth. Like ice cream!
+*Not guaranteed to work well with other mods.*
 ## [Direct Download](https://github.com/auralius-dev/SmoothMonke/releases/download/1.0.0/SmoothMonke.dll)
-*Has not been tested with other mods.*
+
 # Installing
 Smoothly place the SmoothMonke.dll into your BepInEx plugins folder. If you do not have BepInEx, or don't know how to install it, take a look at this fancy website, for fancy people.\
 [Gorilla Tag Modding Guide](https://gorillatagmodding.burrito.software/)
