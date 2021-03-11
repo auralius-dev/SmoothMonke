@@ -18,7 +18,7 @@ namespace SmoothMonke
         {
             private static void Postfix(Player __instance)
             {
-                foreach (GameObject obj in Resources.FindObjectsOfTypeAll<GameObject>()) // Use FindObjectsOfTypeAll to get all disabled objects, such as the cave map. Then just loop through it all.
+                foreach (GameObject obj in Resources.FindObjectsOfTypeAll<GameObject>()) // Use FindObjectsOfTypeAll to get all objects, including disabled objects, such as the cave map. Then just loop through them all.
                 {
                     try
                     {
