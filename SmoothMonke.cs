@@ -31,6 +31,7 @@ namespace SmoothMonke
                     {
                         // Getting the materials on some game objects will throw an error. Unavoidable to my knowledge, as testing if it will error causes the error. So just skip that object and keep going. 
                     }
+                    //harmony.UnpatchAll("com.auralius.monkeytag.texturefiltering"); Probably don't want this.
                 }
             }
         }
