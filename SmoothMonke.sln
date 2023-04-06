@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31019.35
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmoothMonke", "SmoothMonke.csproj", "{3A356B53-4F38-496E-BA30-99873EE61A4D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmoothMonke", "SmoothMonke\SmoothMonke.csproj", "{938A3860-8D81-4701-A4CB-877E7BF27583}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3A356B53-4F38-496E-BA30-99873EE61A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3A356B53-4F38-496E-BA30-99873EE61A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3A356B53-4F38-496E-BA30-99873EE61A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3A356B53-4F38-496E-BA30-99873EE61A4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{938A3860-8D81-4701-A4CB-877E7BF27583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{938A3860-8D81-4701-A4CB-877E7BF27583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{938A3860-8D81-4701-A4CB-877E7BF27583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{938A3860-8D81-4701-A4CB-877E7BF27583}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {801AA836-C2D2-4713-8DA4-099E10C5E877}
+		SolutionGuid = {2758351E-F384-4C66-A4B1-CBD6CE764FDE}
 	EndGlobalSection
 EndGlobal
