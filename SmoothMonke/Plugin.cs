@@ -12,6 +12,7 @@ namespace SmoothMonke
         void Start(){ Utilla.Events.GameInitialized += OnGameInitialized; }
         
         // Waits until after GT systems are intialized before attepting to do anything.
+        // This is common practice now to prevent errors
         void OnGameInitialized(object sender, EventArgs e)  
         {
             foreach (GameObject obj in Resources.FindObjectsOfTypeAll<GameObject>()) // Use FindObjectsOfTypeAll to get all objects, including disabled objects, such as the cave map. Then just loop through them all.
