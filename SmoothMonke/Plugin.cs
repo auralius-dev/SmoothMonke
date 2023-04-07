@@ -22,7 +22,10 @@ namespace SmoothMonke
                     {
                         foreach (Material mat in obj.GetComponent<Renderer>().materials) // Cycle through all materials on an object.
                         {
-                            mat.mainTexture.filterMode = FilterMode.Bilinear; // Changing the FilterMode from point, to bilinear. Trilinear also works, but bilinear is all that's needed.
+                            if (mat.mainTexture != null)
+                            {
+                                mat.mainTexture.filterMode = FilterMode.Bilinear; // Changing the FilterMode from point, to bilinear. Trilinear also works, but bilinear is all that's needed.
+                            }
                         }
                     }
                 }
